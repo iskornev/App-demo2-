@@ -1,0 +1,33 @@
+.add{
+  position: absolute;
+  font-size: 60px;
+  margin-left: 4%;
+  text-align: left;
+  margin-top: 500px;
+  color: rgb(249,196,110);
+}
+
+.start{
+	position: absolute;
+  font-size: 60px;
+  margin-left: 4%;
+  text-align: left;
+  margin-top: 600px;
+  margin-left: 200px;
+  color: rgb(249,196,110);
+}
+
+.sb{
+	margin-left: 41px;
+	margin-top: -89px;
+
+}
+
+.registration{
+	position: absolute;
+	top:650px;
+	left:299px; 
+}
+
+}
+

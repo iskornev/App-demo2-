@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="test.css">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+</head>
+  <title>Main Page</title>
+</head>
+
+	
+<body>
+<div class="add">
+<p id="demo"></p>
+
+<div class="sb">
+<button onclick="clearInterval(myVar)">Stop your time</button>
+</div>
+
+<script>
+var myVar = setInterval(myTimer ,1000);
+function myTimer() {
+    var d = new Date();
+    document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+</script>
+
+</div>
+
+
+<div class="start">
+<button onclick="setTimeout(myFunction, 1000);">Registration</button>
+<script>
+function myFunction() {
+    alert('Registration');
+}
+</script>
+</div>
+
+
+
+
+
+<a href="screen2.html"><div class="registration">Next screen</div></a>
+   
+
+<img src="file:///Users/andreyiskornev/Desktop/test/Images/test.png"></a>
+</body>
+	
+</html>
